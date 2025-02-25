@@ -37,6 +37,7 @@ export interface Config {
   readonly app?: string;
   readonly language?: Language;
   readonly output?: string;
+  readonly importDirectory?: string;
   readonly imports?: string[];
   readonly pluginsDirectory?: string;
   readonly validations?: string | ValidationConfig[];
