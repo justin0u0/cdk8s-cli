@@ -384,7 +384,9 @@ export function generateHelmConstruct(typegen: TypeGenerator, def: HelmObjectDef
       code.line();
 
       code.open('const finalProps: HelmProps = {');
-      if (repoUrl.startsWith('oci://')) {
+      if (!repoUrl.startsWith('oci://') && !repoUrl.startsWith('http')) {
+        code.line(`chart: \'${repoUrl}\',`);
+      } else if (repoUrl.startsWith('oci://')) {
         code.line(`chart: \'${repoUrl}\',`);
       } else {
         code.line(`chart: \'${def.chartName}\',`);
