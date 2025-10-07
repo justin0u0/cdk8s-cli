@@ -3986,10 +3986,9 @@ json-stringify-safe@^5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==
 
-json2jsii@0.5.3:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/json2jsii/-/json2jsii-0.5.3.tgz#2639c9409d2add57769691f3b07fa4c5f680ffb4"
-  integrity sha512-AZQp65rhuZvyVBJF4SEPLcq+HEakvPk8fH5GqgrflNjCOChT7Fm2Z0vPu//PUvwm1BPw1XcGbppjZ1DHa4bUTQ==
+"json2jsii@https://github.com/justin0u0/json2jsii/releases/download/v1.0.0/json2jsii-1.0.0.tgz":
+  version "0.0.0"
+  resolved "https://github.com/justin0u0/json2jsii/releases/download/v1.0.0/json2jsii-1.0.0.tgz#a56e58ed48a8742cfe7644c8bf4acd20d22c89d7"
   dependencies:
     camelcase "^6.3.0"
     json-schema "^0.4.0"

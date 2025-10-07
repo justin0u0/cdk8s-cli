@@ -83,7 +83,7 @@
     "jsii-pacmak": "^1.114.1",
     "jsii-rosetta": "^5.9.5",
     "jsii-srcmak": "0.1.1236",
-    "json2jsii": "0.5.3",
+    "json2jsii": "https://github.com/justin0u0/json2jsii/releases/download/v1.0.0/json2jsii-1.0.0.tgz",
     "semver": "^7.7.2",
     "sscaff": "^1.2.274",
     "table": "^6.9.0",
@@ -106,7 +106,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.0",
+  "version": "3.0.1",
   "jest": {
     "coverageProvider": "v8",
     "testMatch": [
